@@ -37,6 +37,6 @@ type t3 = ages[0] extends ages[number] ? true : false;
 1. extends 类型条件判断
 2. 获取tuple 的 length属性 --- indexed
 3. extends union 判断的规则 
-4. infer(推断) 的使用 ----声明一个变量，一般和extends结合使用，看看能不能结构出一个first，如果能结构出来就返回first,不能就返回never
+4. infer(推断) 的使用 ----声明一个变量，一般和extends结合使用，看看能不能结构出一个first，如果能解构出来就返回first,不能就返回never
 */
 

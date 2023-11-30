@@ -52,7 +52,7 @@ type error = TupleToObject<[[1, 2], {}]>;
 /* expect(()=>{
 type error = TupleToObject<[[1, 2], {}]>
 
-}).toHtrow(()=>{...str.}) */
+}).toThrow(()=>{...str.}) */
 
 // const let  js世界
 // type interface type世界
